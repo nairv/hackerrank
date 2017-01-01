@@ -15,4 +15,9 @@ public class ArraysLeftRotationTest {
         assertThat(SUT.performLeftRotations(INPUT, 4)).containsExactly(5,1,2,3,4);
     }
 
+    @Test
+    public void test_rotation_9_times() {
+        assertThat(SUT.performLeftRotations(INPUT, 9)).containsExactly(5,1,2,3,4);
+    }
+
 }
